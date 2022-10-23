@@ -49,6 +49,9 @@
 		546F99152904D94B00B1B09C /* programmers12982.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers12982.swift; sourceTree = "<group>"; };
 		546F99162904D94B00B1B09C /* programmers86491.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers86491.swift; sourceTree = "<group>"; };
 		546F99172904D94B00B1B09C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		546F991A2904DA1500B1B09C /* BOJ1012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ1012.swift; sourceTree = "<group>"; };
+		546F991B2904DA1500B1B09C /* BOJ2178.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ2178.swift; sourceTree = "<group>"; };
+		546F991C2904DA1500B1B09C /* BOJ1018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ1018.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				546F98FC2904D94B00B1B09C /* programmersLv2 */,
 				546F99072904D94B00B1B09C /* programmersLv3 */,
 				546F99092904D94B00B1B09C /* programmersLv4 */,
+				546F99182904D9DB00B1B09C /* BOJ */,
 			);
 			path = AlgorithmPractice;
 			sourceTree = "<group>";
@@ -148,6 +152,16 @@
 				546F99172904D94B00B1B09C /* main.swift */,
 			);
 			path = programmersLv1;
+			sourceTree = "<group>";
+		};
+		546F99182904D9DB00B1B09C /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				546F991A2904DA1500B1B09C /* BOJ1012.swift */,
+				546F991C2904DA1500B1B09C /* BOJ1018.swift */,
+				546F991B2904DA1500B1B09C /* BOJ2178.swift */,
+			);
+			path = BOJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
