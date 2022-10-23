@@ -3,25 +3,65 @@
 
 import Foundation
 
-let a = [2,2,2,2]
-let b = [1,1,1,1]
+let a = [5,1,3,7]
+let b = [2,2,6,8]
 
 func solution(_ a:[Int], _ b:[Int]) -> Int {
     var score = 0
     
-    var teamA = a.sorted()
-    teamA.reverse()
+    let teamA = a
     var teamB = b.sorted()
-    // 이분 탐색을 해야 하나??
     
-    for idx in 0..<teamA.count {
-        if teamA[idx] < teamB[idx] {
+    func findFirstGreaterThan(_ target: Int) -> Int {
+        var start = 0
+        var end = teamB.count - 1
+        while start < end {
+            var mid = (start + end) / 2
+            if teamB[mid] > target {
+                end = mid
+            } else {
+                start = mid + 1
+            }
+        }
+        return start
+    }
+    
+    for cardA in teamA {
+        let index = findFirstGreaterThan(cardA)
+        if index >= teamA.count {
+            continue
+        }
+        
+        if cardA < teamB[index] {
             score += 1
+            teamB.remove(at: index)
         }
     }
     
     return score
 }
 
-//let result = solution(a, b)
-//print(result)
+let result = solution(a, b)
+print(result)
+
+//
+//let teamB = [2,2,6,8,3,8,4,3,56,5,5,7,7,7,9,1,3,2].sorted()
+//
+//func findFirstGreaterThan(_ target: Int) -> Int {
+//    var start = 0
+//    var end = teamB.count
+//    while start < end {
+//        let mid = (start + end) / 2
+//        if teamB[mid] > target {
+//            end = mid
+//        } else {
+//            start = mid + 1
+//        }
+//    }
+//    return start
+//}
+//
+//let temp = findFirstGreaterThan(7)
+//print(teamB)
+//print(temp)
+

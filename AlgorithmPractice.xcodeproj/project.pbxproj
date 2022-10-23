@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		546F98F42904D91F00B1B09C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F98F32904D91F00B1B09C /* main.swift */; };
+		545BD36929055C92007CF85E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BD36829055C92007CF85E /* main.swift */; };
+		546F99212904DBD200B1B09C /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F99202904DBD200B1B09C /* MaxHeap.swift */; };
+		546F99232904E6E500B1B09C /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F99222904E6E500B1B09C /* MinHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		545BD36629055B1C007CF85E /* programmers12945.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers12945.swift; sourceTree = "<group>"; };
+		545BD36829055C92007CF85E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		546F98F02904D91F00B1B09C /* AlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
-		546F98F32904D91F00B1B09C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		546F98F32904D91F00B1B09C /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		546F98FB2904D94B00B1B09C /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		546F98FD2904D94B00B1B09C /* programmers49993.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers49993.swift; sourceTree = "<group>"; };
 		546F98FE2904D94B00B1B09C /* programmers81302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers81302.swift; sourceTree = "<group>"; };
@@ -48,10 +52,14 @@
 		546F99142904D94B00B1B09C /* programmers12901.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers12901.swift; sourceTree = "<group>"; };
 		546F99152904D94B00B1B09C /* programmers12982.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers12982.swift; sourceTree = "<group>"; };
 		546F99162904D94B00B1B09C /* programmers86491.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers86491.swift; sourceTree = "<group>"; };
-		546F99172904D94B00B1B09C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		546F991A2904DA1500B1B09C /* BOJ1012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ1012.swift; sourceTree = "<group>"; };
 		546F991B2904DA1500B1B09C /* BOJ2178.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ2178.swift; sourceTree = "<group>"; };
 		546F991C2904DA1500B1B09C /* BOJ1018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOJ1018.swift; sourceTree = "<group>"; };
+		546F99202904DBD200B1B09C /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
+		546F99222904E6E500B1B09C /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
+		546F99242904FD2B00B1B09C /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
+		54C2610D2905285B00B84AAA /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
+		54C261112905375A00B84AAA /* programmers12979.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmers12979.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		546F98FA2904D94B00B1B09C /* practice */ = {
 			isa = PBXGroup;
 			children = (
-				546F98F32904D91F00B1B09C /* main.swift */,
+				546F98F32904D91F00B1B09C /* Dijkstra.swift */,
 				546F98FB2904D94B00B1B09C /* BinarySearch.swift */,
+				546F99202904DBD200B1B09C /* MaxHeap.swift */,
+				546F99222904E6E500B1B09C /* MinHeap.swift */,
+				546F99242904FD2B00B1B09C /* Kruskal.swift */,
+				54C2610D2905285B00B84AAA /* Prim.swift */,
 			);
 			path = practice;
 			sourceTree = "<group>";
@@ -115,6 +127,7 @@
 				546F99042904D94B00B1B09C /* programmers77485.swift */,
 				546F99052904D94B00B1B09C /* programmers49994.swift */,
 				546F99062904D94B00B1B09C /* programmers12981.swift */,
+				545BD36629055B1C007CF85E /* programmers12945.swift */,
 			);
 			path = programmersLv2;
 			sourceTree = "<group>";
@@ -123,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				546F99082904D94B00B1B09C /* programmers12987.swift */,
+				54C261112905375A00B84AAA /* programmers12979.swift */,
+				545BD36829055C92007CF85E /* main.swift */,
 			);
 			path = programmersLv3;
 			sourceTree = "<group>";
@@ -149,7 +164,6 @@
 				546F99142904D94B00B1B09C /* programmers12901.swift */,
 				546F99152904D94B00B1B09C /* programmers12982.swift */,
 				546F99162904D94B00B1B09C /* programmers86491.swift */,
-				546F99172904D94B00B1B09C /* main.swift */,
 			);
 			path = programmersLv1;
 			sourceTree = "<group>";
@@ -222,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546F98F42904D91F00B1B09C /* main.swift in Sources */,
+				546F99212904DBD200B1B09C /* MaxHeap.swift in Sources */,
+				546F99232904E6E500B1B09C /* MinHeap.swift in Sources */,
+				545BD36929055C92007CF85E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

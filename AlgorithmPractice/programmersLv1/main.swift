@@ -1,8 +1,5 @@
-//
-//  main.swift
-//  swift_algorithm
-//
-//  Created by 조성규 on 2022/08/14.
-//
+// programmers Lv2 62048 멀쩡한 사각형
 
 import Foundation
+
+
